@@ -2,6 +2,7 @@ library(keras)
 library(tensorflow)
 library(magick)
 
+
 # load CIFAR data set
 cifar10 <- dataset_cifar10()
 #save(cifar10, file = "Downloads/ml/cifar.RData")
